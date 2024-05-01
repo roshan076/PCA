@@ -21,8 +21,8 @@ To run the code, you need to have the following dependencies installed:
 - Python 3.x
 - NumPy
 - Pandas
-- Scikit-learn
 - Matplotlib
+- Scikit-learn
 
 ## Dataset Description
 
