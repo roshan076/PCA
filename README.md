@@ -7,6 +7,8 @@
 - [Dataset Description](#dataset-description)
 - [Result](#result)
    - [Random Gaussian Distribution](#random-gaussian-distribution)
+   - [Iris Dataset](#iris-dataset)
+   - [Diabetes Dataset](#diabetes-dataset)
 - [Conclusion](#conclusion)
 
 ## Introduction
@@ -18,6 +20,8 @@ Principal Component Analysis (PCA) is a widely used statistical technique for th
 To run the code, you need to have the following dependencies installed:
 - Python 3.x
 - NumPy
+- Pandas
+- Scikit-learn
 - Matplotlib
 
 ## Dataset Description
@@ -32,32 +36,12 @@ The diabetes dataset is collected from the Kaggle. The dataset contains the 768 
 The variance explained by each principal component of the random Gaussian distribution dataset are 99.10% and 0.90%. The first principal component captures the majority of the data variability whereas the second principal component captures the negligible amount of the information.
 
 ### Iris Dataset 
-The variance explained by each principal
-component of the iris dataset are 92.4619%, 5.3066%,
-1.7103% and 0.5212%. The first principal component
-captures the majority of the data variability whereas the
-decreasing order of principal component captures the
-minority amount of the information. The last principal
-component contains the negligible amount of information.
+The variance explained by each principal component of the iris dataset are 92.4619%, 5.3066%, 1.7103% and 0.5212%. The first principal component captures the majority of the data variability whereas the decreasing order of principal component captures the minority amount of the information. The last principal component contains the negligible amount of information.
 
-Diabetes dataset: The variance explained by each principal
-component of the Diabetes dataset are 88.8547%, 6.1591%,
-2.579%, 1.3086%, 0.7441%, 0.3026%, 0.0512% and
-0.0007%. The first principal component captures the
-majority of the data variability whereas the decreasing order
-of principal component captures the minority amount of the
-information. The last principal component contains the
-negligible amount of information.
+### Diabetes Dataset
+The variance explained by each principal component of the Diabetes dataset are 88.8547%, 6.1591%, 2.579%, 1.3086%, 0.7441%, 0.3026%, 0.0512% and
+0.0007%.
 
 ## Conclusion
 
-The results showed that PCA
-efficiently preserve both datasets variability and decreased
-their dimensionality while keeping valuable information. The
-synthetic Gaussian dataset and the actual iris, Diabetes dataset,
-however, differed, demonstrating the impact of dataset
-properties on the outcomes.
-
-The PCA reduce the dimensionality while preserving the
-information of the data. It doesn’t change the data but it only
-changes the basis of the data.
+The results showed that PCA efficiently preserve both datasets variability and decreased their dimensionality while keeping valuable information. The synthetic Gaussian dataset and the actual iris, diabetes dataset, however, differed, demonstrating the impact of dataset properties on the outcomes. The PCA reduce the dimensionality while preserving the information of the data. It doesn’t change the data but it only changes the basis of the data.
