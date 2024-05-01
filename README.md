@@ -6,7 +6,7 @@
 - [Dependencies](#dependencies)
 - [Dataset Description](#dataset-description)
 - [Result](#result)
-- [Random Gaussian Distribution](#random-gaussian-distribution)
+   - [Random Gaussian Distribution](#random-gaussian-distribution)
 - [Conclusion](#conclusion)
 
 ## Introduction
